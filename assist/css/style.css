@@ -1,0 +1,106 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.bg-purple{
+    background-color: #5D327A;
+}
+/*header section start*/
+header{
+    background-color: #2b4d9d;
+    
+}
+header ul li .nav-link{
+    color:white;
+
+}
+
+header .active{
+    color:white;
+}
+header .btn{
+    color: #47c907;
+}
+header .btn:hover{
+    color: hsl(100, 90%, 26%);
+}
+/*header section start*/
+/*main section start*/
+main{
+    background: url(../img/background\ heart.jpg)no-repeat scroll;
+    height: auto;
+    background-size: cover;
+    background-position:  center;
+   
+}
+main  .row .col h1{
+   font-size: 47px;
+   font-weight: 300;
+}
+
+main .row .nav-pills .nav-link{
+    background-color: #513271;
+    padding: 10px 15px;
+    margin: 4px;
+    color:white;
+    border-radius: 0px;
+}
+main .row .nav-pills .nav-link.active{
+    background-color: #9a2525;
+    
+}
+
+
+
+/*main section end*/
+
+/* Fun  section start*/
+#fun{
+    background: url(../img/naturebackground.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    color:white;
+    padding: 30px;
+}
+#fun h3{
+      
+    margin-bottom: 30px;
+
+}
+#fun .box
+{
+    background-color: rgb(56, 54, 54);
+    height: 170px;
+    color: white;
+    text-align: center;
+}
+/* Fun section end*/
+
+
+/* Aero section start*/
+#aero{
+    background: url(../img/aeroplanebackgrouynd.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Aero section end*/
+
+/* max-width 767px start */
+@media screen and (max-width:767px) 
+{
+    main .row h1{
+    font-size: 40px;
+    }
+ }
+ /* max-width 767px end */
+ /* max-width 575px start */
+ @media screen and (max-width:575px) {
+ main .row h1{
+ font-size: 30px;
+ }
+ }
+ /* max-width 575px end *
