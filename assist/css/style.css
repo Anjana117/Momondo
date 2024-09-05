@@ -6,10 +6,17 @@
 .bg-purple{
     background-color: #5D327A;
 }
+.co-red{
+    background-color: red;
+}
 /*header section start*/
 header{
     background-color: #2b4d9d;
     
+}
+header .nav-underline li .nav-link{
+    color:white;
+
 }
 header ul li .nav-link{
     color:white;
@@ -23,7 +30,11 @@ header .btn{
     color: #47c907;
 }
 header .btn:hover{
-    color: hsl(100, 90%, 26%);
+    color: red
+}
+
+form ul li .dropdown-toggle:hover{
+    color: white;
 }
 /*header section start*/
 /*main section start*/
@@ -60,9 +71,12 @@ main .row .nav-pills .nav-link.active{
     background: url(../img/naturebackground.jpg) no-repeat;
     background-position: center;
     background-size: cover;
-    height: 400px;
+    height: auto;
     color:white;
     padding: 30px;
+}
+#fun .row .box{
+    margin: 10px;
 }
 #fun h3{
       
@@ -79,28 +93,28 @@ main .row .nav-pills .nav-link.active{
 /* Fun section end*/
 
 
-/* Aero section start*/
-#aero{
-    background: url(../img/aeroplanebackgrouynd.jpg);
-    height: 400px;
-    background-position: center;
-    background-size: cover;
-}
 
-/* Aero section end*/
 
 /* max-width 767px start */
 @media screen and (max-width:767px) 
 {
     main .row h1{
     font-size: 40px;
+    text-align: center;
     }
+    main .row h3{
+        text-align: center;
+        }
  }
  /* max-width 767px end */
  /* max-width 575px start */
  @media screen and (max-width:575px) {
  main .row h1{
  font-size: 30px;
+ text-align: center;
  }
+ main .row h3{
+    text-align: center;
+    }
  }
  /* max-width 575px end *
