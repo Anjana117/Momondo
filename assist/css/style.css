@@ -61,6 +61,13 @@ main .row .nav-pills .nav-link.active{
     background-color: #9a2525;
     
 }
+#pills-tabContent .box{
+    height: 75px;
+    width: 75px;
+    border-radius: 40px;
+
+}
+
 
 
 
@@ -92,6 +99,52 @@ main .row .nav-pills .nav-link.active{
 }
 /* Fun section end*/
 
+/* Suscribe section start*/
+#suscribe{
+    background: url(../img/news3.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+   
+}
+#suscribe input{
+    height: 40px;
+    font-size: 19px;
+    border:2px outset white;
+    width: 60%;
+    padding: 0px 10px;
+    transition:all 0.5s;
+    background: transparent;
+}
+#suscribe input:focus{
+    outline: none;
+    border:2px solid blue;
+}
+#suscribe button{
+padding: 10px 15px;
+font-size: 17px;
+font-weight: 50px;
+}
+/* Suscribe section end*/
+
+/* Popular section start*/
+#popular{
+    background-color: #1F172F;
+    height: auto;
+}
+#popular .box{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#popular .box img{
+    width: 100%;
+}
+
+/* Popular section end*/
+
 
 
 
@@ -105,6 +158,20 @@ main .row .nav-pills .nav-link.active{
     main .row h3{
         text-align: center;
         }
+
+    main .bg-purple  .col-md-3 button{
+        margin: 8px;
+    }
+    #pills-tabContent .box{
+        height: 75px;
+        width: 75px;
+        border-radius: none;
+    
+    }
+    #pills-tabContent .col-auto
+    {
+        text-align: center;
+    }
  }
  /* max-width 767px end */
  /* max-width 575px start */
