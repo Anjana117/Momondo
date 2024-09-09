@@ -145,6 +145,43 @@ font-weight: 50px;
 
 /* Popular section end*/
 
+/* Estimate  section start*/
+#estimate{
+background: url(../img/footer.jpg) no-repeat;
+
+height: 300px;
+background-size: cover;
+background-position: center;
+
+}
+#estimate .row .form-control{
+    border-radius: 0%;
+}
+
+#estimate  #mybutton{
+    font-weight: 400;
+    background-color: #F89601;
+    
+}
+/* Estimate  section end*/
+
+/* footer  section start*/
+ footer{
+    background-color:#1D1928 ;
+ }
+/* footer  section end*
+
+/* max-width 992px start */
+@media screen and (max-width:991px) 
+{
+    #estimate .col-4
+    {
+        margin-bottom: 10px;
+    }
+    
+}
+/* max-width 992px start */
+
 
 
 
@@ -172,6 +209,11 @@ font-weight: 50px;
     {
         text-align: center;
     }
+
+    #estimate .col-4
+    {
+        margin-top: 10px;
+    }
  }
  /* max-width 767px end */
  /* max-width 575px start */
@@ -183,5 +225,10 @@ font-weight: 50px;
  main .row h3{
     text-align: center;
     }
+
+ #estimate #mybutton{
+    padding-top: 7px;
+    font-size: 13px;
+ }
  }
  /* max-width 575px end *
