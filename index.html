@@ -103,28 +103,27 @@
                         aria-labelledby="pills-home-tab" tabindex="0">
                         <div class="row g-4 align-items-center">
 
-                            <div class="col-lg-3 col-md-5 col-12">
+                            <div class="col-lg-3 col-5  d-flex">
                                 <input type="text" name="location" name="city" placeholder="Enter origin city"
                                     class="form-control">
+                                    <i class="fa-solid fa-arrow-right-arrow-left my-2 ps-2 "></i>
 
                             </div>
-                            <div class="col-auto">
-                                <i class="fa-solid fa-arrow-right-arrow-left my-2 ps-2"></i>
-                            </div>
+                            
 
-                            <div class="col-lg-3 col-md-5 col-12">
+                            <div class="col-lg-3 col-5 ">
                                 <input type="text" name="location" name="destination"
                                     placeholder="Enter destination city" class="form-control">
                             </div>
-                            <div class="col-lg-2 col-md-4 ">
+                            <div class="col-lg-2 col-4 ">
                                 <input type="date" name="location" name="location" class="form-control">
                             </div>
-                            <div class="col-lg-2 col-md-4">
+                            <div class="col-lg-2 col-4">
                                 <select name="passenger" id="" class="form-select">
                                     <option value="passenger">Passenger</option>
                                 </select>
                             </div>
-                            <div class="col-lg-1 col-md-3">
+                            <div class="col-lg-1 col-3">
                                 <div class="box bg-danger  px-3 py-3">
                                     <a href="javascript:void()" class="text-white text-decoration-none  ">Search</a>
                                 </div>
@@ -417,8 +416,9 @@
 
     <!--------Estimate  section start------------->
     <section id="estimate">
+        <img src="./assist/img/estimate.png"  alt="">
         <div class="container-lg">
-            <div class="row">
+           <div class="row">
                 <div class="col text-white">
                     <h2 class="mt-5">GET A QUICK ESTIMATE!!</h2>
                     <H4>GET A PROFESSIONAL HELP</H4>
@@ -426,8 +426,8 @@
                 </div>
             </div>
 
-            <div class="row  mt-5">
-                <div class="col-lg-2 col-4">
+            <div class="row  mt-5 ">
+                <div class="col-lg-2 col-md-4 col-6 mb-5">
                     <div class="dropdown">
                         <button type="btn" class="dropdown-toggle form-control " data-bs-toggle="dropdown">Travel
                             Rurpose</button>
@@ -440,14 +440,14 @@
                     </div>
                 </div>
 
-                <div class="col-lg-2 col-4">
+                <div class="col-lg-2 col-md-4 col-6">
                     <input type="date" name="traveldate" class="form-control" placeholder="Travel Date">
                 </div>
 
-                <div class="col-lg-2 col-4">
+                <div class="col-lg-3 col-md-4 col-6">
                     <div class="dropdown">
-                        <button type="btn" class="dropdown-toggle form-control " data-bs-toggle="dropdown">Number of
-                            People</button>
+                        <button type="btn" class="dropdown-toggle form-control " data-bs-toggle="dropdown"  >Number Of People
+                            </button>
                         <ul class="dropdown-menu">
                             <li><a href="" class="dropdown-item">1</a></li>
                             <li><a href="" class="dropdown-item">2</a></li>
@@ -457,10 +457,10 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-4">
+                <div class="col-lg-2 col-md-4 col-6 mb-5">
                     <input type="email" name="email" class="form-control " placeholder="Your Email">
                 </div>
-                <div class="col-lg-3 col-4">
+                <div class="col-lg-2 col-md-4 col-12  mb-5">
                     <button id="mybutton" class="form-control fw-bold ">CALCULATE NOW</button>
 
                 </div>
@@ -527,7 +527,7 @@
 
             <div class="col-md-3 col-6">
                 <h5 class="text-uppercase">Top countries</h5>
-                <ul>
+                <ul class="first-ul">
                     <li>Lorem, ipsum dolor.</li>
                     <li>Laboriosam, corporis in.</li>
                     <li>Odio, sapiente optio?</li>
@@ -536,8 +536,8 @@
                 </ul>
             </div>
             <div class="col-md-3 col-6">
-                <h5 class="text-uppercase">Top countries</h5>
-                <ul>
+                <h5 class="text-uppercase">Top Cities</h5>
+                <ul class="second-ul">
                     <li>Lorem, ipsum dolor.</li>
                     <li>Laboriosam, corporis in.</li>
                     <li>Odio, sapiente optio?</li>
@@ -546,18 +546,20 @@
                 </ul>
             </div>
             <div class="col-md-3 col-6">
-                <h5 class="text-uppercase">Top countries</h5>
-                <ul>
+                <h5 class="text-uppercase">International Sites</h5>
+                <ul class="third-ul">
                     <li>Lorem, ipsum dolor.</li>
                     <li>Laboriosam, corporis in.</li>
                     <li>Odio, sapiente optio?</li>
                     <li>Iusto, incidunt soluta?</li>
                     <li>Facere, recusandae saepe!</li>
+                    <li>Iusto, incidunt soluta?</li>
+                    <li>Facere, recusandae saepe!</li>
                 </ul>
             </div>
             <div class="col-md-3 col-6">
-                <h5 class="text-uppercase">Top countries</h5>
-                <ul>
+                <br><br>
+                <ul class="fourth-ul">
                     <li>Lorem, ipsum dolor.</li>
                     <li>Laboriosam, corporis in.</li>
                     <li>Odio, sapiente optio?</li>

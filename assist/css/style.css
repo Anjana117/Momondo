@@ -147,12 +147,16 @@ font-weight: 50px;
 
 /* Estimate  section start*/
 #estimate{
-background: url(../img/footer.jpg) no-repeat;
+background-color: #664CAD;
+height: auto;
+position: relative;
+}
 
-height: 300px;
-background-size: cover;
-background-position: center;
-
+#estimate img{
+    height: 100%;
+    width: auto;
+    position: absolute;
+    right: 0;
 }
 #estimate .row .form-control{
     border-radius: 0%;
@@ -168,8 +172,39 @@ background-position: center;
 /* footer  section start*/
  footer{
     background-color:#1D1928 ;
+
  }
-/* footer  section end*
+ footer .first-ul{
+    list-style-image:url(../img/worldicon.png) ;
+ }
+
+ footer .second-ul{
+    list-style-image:url(../img/locationicon.png) ;
+ }
+
+
+ footer .third-ul{
+    list-style-image:url(../img/flag1.png) ;
+ }
+
+ footer .fourth-ul{
+    list-style-image:url(../img/flag2.png) ;
+ }
+
+
+ /* footer  section end*
+
+/* max-width 1200px start */
+@media screen and (max-width:1200px) 
+{
+    #estimate #mybutton{
+        
+        font-size:13px;
+     }
+    
+}
+/* max-width 1200px end */
+
 
 /* max-width 992px start */
 @media screen and (max-width:991px) 
@@ -178,7 +213,6 @@ background-position: center;
     {
         margin-bottom: 10px;
     }
-    
 }
 /* max-width 992px start */
 
@@ -214,8 +248,13 @@ background-position: center;
     {
         margin-top: 10px;
     }
+    #estimate img{
+        display: none;
+    }
+    
  }
  /* max-width 767px end */
+
  /* max-width 575px start */
  @media screen and (max-width:575px) {
  main .row h1{
@@ -225,10 +264,11 @@ background-position: center;
  main .row h3{
     text-align: center;
     }
-
- #estimate #mybutton{
-    padding-top: 7px;
-    font-size: 13px;
- }
- }
+#estimate img{
+      display: none;
+    }
+#estimate  #mybutton{
+    text-align: center;
+}
+}
  /* max-width 575px end *
